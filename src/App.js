@@ -5,13 +5,15 @@ import Navigation from "./components/Navigation/Navigation";
 import Logo from "./components/Logo/Logo";
 import 'tachyons';
 
+
+
 function App() {
   return (
     <div className="App">
         <Navigation />
         <Logo />
-        {  /*  <ImageLinkForm />
-            <FaceRecognition />*/}
+        <ImageLinkForm />
+           {/* <FaceRecognition />*/}
     </div>
   );
 }
