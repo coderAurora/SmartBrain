@@ -7,7 +7,7 @@ const MyParticles = () => {
         console.log('particlesInit(main)', main);
     }
     const particlesLoaded = (container) => {
-        console.log('partivlesLoaded(container)', container);
+        console.log('particlesLoaded(container)', container);
     }
     return (
         <Particles className={'particles'}
