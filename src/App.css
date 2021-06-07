@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+	margin-left: 1rem;
 }
 
 .center {
@@ -17,14 +18,20 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+input {
+	z-index: 2;
+}
+
 .particles {
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: -1;
+	/*z-index: -1;*/
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
